@@ -9,7 +9,9 @@ const Card = (props) => {
         {svg} {title}
       </div>
       <div className="principal-text">{text}</div>
-      <button className="card-button"> {button}</button>
+      <button className="card-button">
+        <p>{button}</p>
+      </button>
     </div>
   );
 };

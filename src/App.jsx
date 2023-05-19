@@ -177,7 +177,7 @@ function App() {
               <p>84996387886</p>
             </div>
 
-            <Space align="baseline" size={24}>
+            <Space className="infos" align="baseline" size={24}>
               <svg
                 width="27"
                 height="26"
