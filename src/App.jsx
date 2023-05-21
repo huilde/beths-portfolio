@@ -48,7 +48,15 @@ function App() {
         <div className="header">
           <Space size={56}>
             <a>Início</a>
-            <a>curriculo</a>
+            <a
+              onClick={() =>
+                handleLinkClick(
+                  "https:drive.google.com/file/d/1AhTE91AagTUfm2mouuSt1tsLS6xI6Ctl/view"
+                )
+              }
+            >
+              curriculo
+            </a>
           </Space>
 
           <svg
@@ -190,7 +198,16 @@ function App() {
             centrado no usuário para entregar resultados consistentes,
             inclusivos e com impactos positivos para as pessoas.
           </p>
-          <button className="footer-button"> ver meu currículo</button>
+          <button
+            onClick={() =>
+              handleLinkClick(
+                "https:drive.google.com/file/d/1AhTE91AagTUfm2mouuSt1tsLS6xI6Ctl/view"
+              )
+            }
+            className="footer-button"
+          >
+            ver meu currículo
+          </button>
         </Col>
         <Col>
           <address className="address">
