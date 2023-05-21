@@ -51,7 +51,7 @@ function App() {
             <a
               onClick={() =>
                 handleLinkClick(
-                  "https:drive.google.com/file/d/1AhTE91AagTUfm2mouuSt1tsLS6xI6Ctl/view"
+                  "https://drive.google.com/file/d/1AhTE91AagTUfm2mouuSt1tsLS6xI6Ctl/view"
                 )
               }
             >
@@ -201,7 +201,7 @@ function App() {
           <button
             onClick={() =>
               handleLinkClick(
-                "https:drive.google.com/file/d/1AhTE91AagTUfm2mouuSt1tsLS6xI6Ctl/view"
+                "https://drive.google.com/file/d/1AhTE91AagTUfm2mouuSt1tsLS6xI6Ctl/view"
               )
             }
             className="footer-button"
@@ -214,7 +214,6 @@ function App() {
             <div className="infos">
               <p>Soares0elizabeth@gmail.com</p>
               <p>Rio Grande do Norte </p>
-              <p>84996387886</p>
             </div>
 
             <Space className="infos" align="baseline" size={24}>
