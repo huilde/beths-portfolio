@@ -85,15 +85,15 @@ function App() {
         <div className="projectCard">
           <div wrap className="cards">
             <Card
-              link={() =>
-                handleLinkClick(
-                  "https://www.behance.net/gallery/140038461/UXUI-Design-BodyFitter"
-                )
-              }
+              // link={() =>
+              //   handleLinkClick(
+              //     "https://www.behance.net/gallery/140038461/UXUI-Design-BodyFitter"
+              //   )
+              // }
               svg={Behance()}
               title={"| UX/UI"}
               projeto="adote"
-              button={"Ver no Behance"}
+              button={"Em breve"}
               text={`Adote.me:    Plataforma de adoção`}
             />
             <Card
