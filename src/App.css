@@ -28,13 +28,12 @@ img {
   align-items: center;
   justify-content: center;
   color: #604fcf;
+  margin-bottom: 48px;
 }
 
 .footer {
   max-width: 1128px;
-  display: flex;
-  align-items: center;
-  margin: auto;
+  margin: 72px auto 96px;
 }
 h1,
 h4,
@@ -60,42 +59,35 @@ body {
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
 
-.cards_item {
-  display: flex;
-  padding: 1rem;
+  gap: 12px;
+  /* padding: 0; */
 }
 
 .card {
-  /* background-color: purple; */
   border-radius: 24px;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  width: 360px;
-  height: 460px;
+  justify-content: end;
+  height: 380px;
   padding: 40px;
 }
 
-.cards_item {
-  display: flex;
-  padding: 1rem;
-}
 .principal-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   color: #ffffff;
-  /* width: 280px; */
+  max-width: 206px;
   line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.sub {
+  text-align: center;
 }
 
 .card-button {
@@ -106,7 +98,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
-  /* identical to box height, or 100% */
+  width: 180px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+
   text-align: center;
 
   color: #ffffff;
@@ -116,7 +115,6 @@ body {
 }
 
 .title {
-  margin-bottom: 236px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -200,6 +198,9 @@ body {
 
   color: #ffffff;
 }
+.behance {
+  height: 27px;
+}
 
 .infos {
   font-family: "Inter";
@@ -207,8 +208,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
+  margin-top: 24px;
   color: #604fcf;
 }
 
@@ -230,22 +230,12 @@ body {
   }
 }
 
-@media (min-width: 900px) {
-  .cards_item {
-    width: 50%;
+@media (max-width: 1234px) {
+  .header,
+  .main,
+  .footer {
+    padding: 16px;
   }
-}
-
-@media (min-width: 1134px) {
-  .cards_item {
-    width: 33.3333%;
-  }
-}
-
-.infos {
-  margin-top: 24px;
-}
-@media (min-width: 1134px) {
 }
 
 @media (max-width: 1134px) {

@@ -38,21 +38,18 @@ header {
   margin-bottom: 32px;
 }
 button {
-  border-radius: 8px;
-  font-size: 1em;
-  font-weight: 500;
   cursor: pointer;
-  transition: border-color 0.25s;
-  text-align: left;
-  padding: 10px;
-  /* width: 100px; */
 }
+
 button:hover {
   border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
   /* outline: 4px auto -webkit-focus-ring-color; */
+}
+.infos svg {
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: light) {
@@ -77,6 +74,4 @@ button:focus-visible {
   /* or 125% */
 
   color: #604fcf;
-}
-.footer div {
 }
