@@ -67,7 +67,7 @@ function App() {
       </header>
       <main className="main">
         <div className="subheader">
-          <img src="../Assets/beth.png" alt="Avatar de Elizabeth" />
+          <img src="../Assets/Beth.png" alt="Avatar de Elizabeth" />
           <h4>Elizabeth Soares</h4>
           <p className="sub">
             Product designer, UX/UI Designer & Visual Designer
