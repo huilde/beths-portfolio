@@ -17,9 +17,11 @@ header {
   margin: auto;
 }
 
-img {
-  max-width: 48px;
-  max-height: 48px;
+.img {
+  width: 48px;
+  height: 48px;
+  background-image: url("../Assets/beth.png");
+  background-size: cover;
 }
 
 .subheader {
@@ -105,7 +107,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px 20px;
-
   text-align: center;
 
   color: #ffffff;
@@ -131,34 +132,28 @@ body {
 
 .adote {
   background-image: url("../Assets/adoteme.png");
-  background-repeat: repeat;
   background-size: cover;
 }
 
 .medi {
   background-size: cover;
   background-image: url("../Assets/medi.png");
-  background-repeat: repeat;
 }
 
 .onbording {
   background-image: url("../Assets/onbo.png");
-  background-repeat: repeat;
   background-size: cover;
 }
 .interface {
   background-image: url("../Assets/UI.png");
-  background-repeat: repeat;
   background-size: cover;
 }
 .vio {
   background-image: url("../Assets/vio.png");
-  background-repeat: repeat;
   background-size: cover;
 }
 .body {
   background-image: url("../Assets/boddy.png");
-  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -180,6 +175,7 @@ body {
   align-items: center;
   padding: 10px 20px;
   gap: 10px;
+  margin-top: 24px;
 
   width: 175px;
   height: 36px;
@@ -221,6 +217,12 @@ body {
   }
 }
 
+@media (max-width: 760px) {
+  .footer-button {
+    width: 100% !important;
+  }
+}
+
 @media (max-width: 560px) {
   .footer {
     display: grid;
@@ -235,6 +237,11 @@ body {
   .main,
   .footer {
     padding: 16px;
+  }
+}
+@media (min-width: 1134px) {
+  .address {
+    margin-top: -150px;
   }
 }
 

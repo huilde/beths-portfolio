@@ -67,7 +67,7 @@ function App() {
       </header>
       <main className="main">
         <div className="subheader">
-          <img src="Assets/beth.png" alt="Avatar de Elizabeth" />
+          <div className="img" alt="Avatar de Elizabeth" />
           <h4>Elizabeth Soares</h4>
           <p className="sub">
             Product designer, UX/UI Designer & Visual Designer
@@ -114,7 +114,7 @@ function App() {
             <Card
               link={() =>
                 handleLinkClick(
-                  "https://www.behance.net/gallery/140038461/UXUI-Design-BodyFitter"
+                  "https://heliotrope-skunk-f2c.notion.site/BodyFitter-231bf3a1471c4569a52134e5182a5757"
                 )
               }
               svg={Notion()}
@@ -158,6 +158,7 @@ function App() {
         </Col>
         <Col>
           <svg
+            className="brach"
             width="61"
             height="53"
             viewBox="0 0 61 53"
@@ -192,7 +193,7 @@ function App() {
           <button className="footer-button"> ver meu currículo</button>
         </Col>
         <Col>
-          <address>
+          <address className="address">
             <div className="infos">
               <p>Soares0elizabeth@gmail.com</p>
               <p>Rio Grande do Norte </p>
