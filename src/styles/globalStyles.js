@@ -97,8 +97,11 @@ export default createGlobalStyle`
   height: 56px;
   max-width: 1128px;
   margin: auto;
-  border-bottom: 1px solid ${(props) => props.theme.text};
-  margin: auto;
+
+}
+header{
+    border-bottom: 1px solid ${(props) => props.theme.text};
+
 }
 .header a{
     color: ${(props) => props.theme.text};
