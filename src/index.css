@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-  border-color: #646cff;
+  /* border-color: #646cff; */
 }
 button:focus,
 button:focus-visible {
@@ -63,15 +63,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-.footer-text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 60px;
-  /* or 125% */
-
-  color: #604fcf;
 }

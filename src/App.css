@@ -2,21 +2,6 @@
   height: 100%;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #604fcf;
-  height: 56px;
-  max-width: 1128px;
-  margin: auto;
-}
-
-header {
-  border-bottom: 1px solid #604fcf;
-  margin: auto;
-}
-
 .img {
   width: 48px;
   height: 48px;
@@ -157,17 +142,6 @@ body {
   background-size: cover;
 }
 
-.description-text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 38px;
-
-  letter-spacing: -1px;
-
-  color: #604fcf;
-}
 .footer-button {
   display: flex;
   flex-direction: row;
@@ -181,7 +155,7 @@ body {
   height: 36px;
 
   background: #604fcf;
-  border: 1px solid #604fcf;
+  border: none;
   border-radius: 30px;
   font-family: "Inter";
   font-style: normal;
