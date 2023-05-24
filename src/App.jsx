@@ -10,7 +10,6 @@ import { Card } from "./components/Card";
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
-  console.log(files);
   const handleLinkClick = (link) => {
     console.log(link);
     window.open(link, "_blank");
