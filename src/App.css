@@ -5,7 +5,7 @@
 .img {
   width: 48px;
   height: 48px;
-  background-image: url("../Assets/beth.png");
+  background-image: url("../Assets/beth.adoteme.webp");
   background-size: cover;
 }
 
@@ -116,29 +116,29 @@ body {
 }
 
 .adote {
-  background-image: url("../Assets/adoteme.png");
+  background-image: url("../Assets/adoteme.webp");
   background-size: cover;
 }
 
 .medi {
   background-size: cover;
-  background-image: url("../Assets/medi.png");
+  background-image: url("../Assets/medi.webp");
 }
 
 .onbording {
-  background-image: url("../Assets/onbo.png");
+  background-image: url("../Assets/onbo.webp");
   background-size: cover;
 }
 .interface {
-  background-image: url("../Assets/UI.png");
+  background-image: url("../Assets/UI.webp");
   background-size: cover;
 }
 .vio {
-  background-image: url("../Assets/vio.png");
+  background-image: url("../Assets/vio.webp");
   background-size: cover;
 }
 .body {
-  background-image: url("../Assets/boddy.png");
+  background-image: url("../Assets/boddy.webp");
   background-size: cover;
 }
 
