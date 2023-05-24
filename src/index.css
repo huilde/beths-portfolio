@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Inter";
-  src: url("../Assets/Inter-VariableFont_slnt\,wght.ttf");
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url("../Assets/Inter-VariableFont_slnt\,wght.ttf") format("ttf");
 }
 
 :root {
