@@ -11,7 +11,6 @@ function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   const handleLinkClick = (link) => {
-    console.log(link);
     window.open(link, "_blank");
   };
   const Behance = () => {
