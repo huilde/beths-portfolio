@@ -10,6 +10,7 @@ import { Card } from "./components/Card";
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
+  console.log(files);
   const handleLinkClick = (link) => {
     console.log(link);
     window.open(link, "_blank");
@@ -55,13 +56,10 @@ function App() {
         <header>
           <div className="header">
             <Space size={56}>
-              <a>Início</a>
+              <a href="#">Início</a>
               <a
-                onClick={() =>
-                  handleLinkClick(
-                    "https://drive.google.com/file/d/1AhTE91AagTUfm2mouuSt1tsLS6xI6Ctl/view"
-                  )
-                }
+                href="https://drive.google.com/file/d/1AhTE91AagTUfm2mouuSt1tsLS6xI6Ctl/view"
+                target="_blank"
               >
                 curriculo
               </a>
